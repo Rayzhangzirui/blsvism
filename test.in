@@ -1,0 +1,13 @@
+# testing
+solfile 			= 2atomQ0.VISM		# atom info: coordiantes, LJ, and partial charge
+sol1 				= 1 1 1				# atom num, start index, end index(p53)
+gridnum 			= 30				# grid number
+kernelrad 			= 0					# kernel radius(default 0 means scale with 3rad:1anstrong)
+gridbound 			= 10				# grid boundary
+devicecode 			= 1					# device:0-cpu,1-gpu
+outfile 			= output 			# output file
+centering			= 1					# 0 no centering, 1 center at begin, 2 center every step
+tightfit			= 1					# tight or loose initial
+seed				= 0					# 0 random seed, otherwise provided seed
+max_step 			= 100				# max number of mc step
+max_trans 			= 0.1				# maximum 

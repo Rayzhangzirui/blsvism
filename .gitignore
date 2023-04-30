@@ -1,7 +1,7 @@
 # https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension
 # Ignore all
 *
-
+.vscode/*
 # Unignore all with extensions
 !*.*
 
